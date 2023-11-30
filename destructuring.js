@@ -14,7 +14,13 @@
 // var [City1 ,City2,City3,City4] = cities
 // console.log(City1,City2,City3,City4)
 
-var friends = [`Faiza`,`Saira`,`Saba`,`Hira`,`Sama`,`Sania`]
-var [Friend1,Friend2,Friend3,Friend4] = friends
-console.log(Friend1,Friend2,Friend3,Friend4)
+// var friends = [`Faiza`,`Saira`,`Saba`,`Hira`,`Sama`,`Sania`]
+// var [Friend1,Friend2,Friend3,Friend4] = friends
+// console.log(Friend1,Friend2,Friend3,Friend4)
 
+// var [Friend1,Friend2,Friend3,Friend4] =  [`Faiza`,`Saira`,`Saba`,`Hira`,`Sama`,`Sania`]
+//  console.log(Friend1,Friend2,Friend3,Friend4)
+
+// var num = [1,3,2,4]
+// var [a,b,c,d] = num
+// console.log(a+b+c+d)
