@@ -20,3 +20,13 @@
         // const addOne = (num) =>  num * num 
         //     const a = addOne(6)
         //     console.log(a)
+
+        let num = prompt("Enter Your number");
+        const check = (num) => num % 2
+        const result = check(num)
+        console.log(result)
+        if (result === 0) {
+            console.log("Even Number")
+        } else {
+            console.log("Odd Number")
+        }
