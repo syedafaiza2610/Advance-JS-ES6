@@ -32,14 +32,28 @@
 // let avg = sum / num.length;
 // console.log(avg.toFixed)
 
-const  num =[80, 70 , 60 , 90, 40, 48, 50,11,47];
-let sum = 0;
-num.map((item) => { 
-    sum = sum + item
-})
-let avg = sum / num.length;
-console.log(avg.toFixed(2))
-const re = num.filter((item) => item % 2 === 0)// even
-console.log(re)
-const res = num.filter((item) => item % 2 != 0 && item > 20) // odd 
-console.log(res)
+// const  num =[80, 70 , 60 , 90, 40, 48, 50,11,47];
+// let sum = 0;
+// num.map((item) => { 
+//     sum = sum + item
+// })
+// let avg = sum / num.length;
+// console.log(avg.toFixed(2))
+// const re = num.filter((item) => item % 2 === 0)// even
+// console.log(re)
+// const res = num.filter((item) => item % 2 != 0 && item > 20) // odd 
+// console.log(res)
+// const students = [
+//     {id: 1 , name: "Faiza" , marks:74},
+//     {id: 2 , name: "Saba" , marks:68},
+//     {id: 3 , name: "Abc" , marks:76}
+// ]
+// const result3 = students.filter((item) => item.marks > 70)
+// console.log(result3)
+
+
+
+
+
+
+
