@@ -4,6 +4,35 @@
 // num.map(Math.sqrt)
 // console.log(num)
 
+// const arr = ["one","two","three"]
+// const obj =[
+//     {id:1, name: "SMIT"},
+//     {id:2, name: "navtac"}
+  
+// ]
+// const newArr = arr.map((item,index) => `${item} is at ${index}`)
+// console.log(newArr);
+// console.log(arr)
+// console.log(obj.map((item) => item.name))
+
+
+const arr = ["one","two","three"]
+const obj =[
+    {id:1, name: "SMIT"},
+    {id:2, name: "navtac"},
+    {id:2, name: "aptech"},
+    {id:2, name: "areena"}
+]
+
+// const newArr = obj.map((item,index) => (`${item.name} is the name `))
+// console.log((obj.filter((item) => item.name.length > 4)))
+
+const long = obj.filter((item) =>{
+    return item.name.length > 4
+})
+long.map((item) => console.log(item.name))
+
+
 
 // const arr = [4,16,25];
 //  console.log(arr.map((item) => item + 1))

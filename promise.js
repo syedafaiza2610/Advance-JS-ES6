@@ -75,9 +75,8 @@
 // 21
 // 22
 // 1,2,2,4
-for (var i=1; i<=100; i=1+10) {
-    console.log(i);
-  }
+var a = document.onkeyup
+console.log(a)
 // for(var i=1;i<=2;i++){
 //     for(var j=1 ; j<=3;j++){
 //         document.write(i*j)
